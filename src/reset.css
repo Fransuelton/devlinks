@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: var(--bg-url) no-repeat top center/cover;
+  color: var(--text-color);
+}
+
+a{
+  color: var(--text-color);
+}
+
+#app {
+  width: 36rem;
+  margin: 3rem auto 0rem;
+  padding: 0 2.4rem;
+  text-align: center;
+}
+
+:root {
+  --text-color: #ffffff;
+  --bg-url: url(../src/assets/bg-desktop-dark.jpg);
+  --bg-url-switch: url(../src/assets/moon-stars.svg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0,0,0, 0.02);
+  --highlight-color: rgba(255,255,255,0.2);
+}
+
+.light {
+  --text-color: #000000;
+  --bg-url: url(../src/assets/bg-desktop-light.png);
+  --bg-url-switch: url(../src/assets/sun.svg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0,0,0, 0.02);
+  --highlight-color: rgba(0,0,0, 0.1);
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
