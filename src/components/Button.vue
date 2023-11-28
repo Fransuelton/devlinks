@@ -28,6 +28,7 @@ li a {
   text-decoration: none;
   font-weight: 500;
   font-size: 1.6rem;
+  width: 40rem;
 
   transition: background 0.2s;
 }
@@ -37,9 +38,9 @@ li a:hover {
   border: 0.1rem solid var(--text-color);
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   li a {
-    width: 40rem;
+    width: 35rem;
   }
 }
 

@@ -23,6 +23,7 @@ const toggleMode = () => {
 }
 
 #switch button {
+  cursor: pointer;
   width: 3.2rem;
   height: 3.2rem;
   background: #fff var(--bg-url-switch) no-repeat center;
