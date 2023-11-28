@@ -14,7 +14,7 @@ import Profile from "./components/Profile.vue";
       <Button :msg="'Veja meu portfólio'" :icon="'person'" :link="'https://www.fransuelton.dev/'" />
       <Button :msg="'GitHub'" :icon="'logo-github'" :link="'https://github.com/Fransuelton'" />
       <Button :msg="'LinkedIn'" :icon="'logo-linkedin'" link="https://www.linkedin.com/in/fransuelton/" />
-      <Button :msg="'Discord'" :icon="'logo-discord'" link="" />
+      <Button :msg="'Discord'" :icon="'logo-discord'" link="https://discord.com/users/537751809331167243" />
       <Button :msg="'E-mail'" :icon="'mail'" link="mailto:fransuelton.dev@gmail.com" />
       <Button :msg="'WhatsApp'" :icon="'logo-whatsapp'" link="https://api.whatsapp.com/send?phone=558499778995" />
     </ul>
