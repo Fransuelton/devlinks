@@ -3,7 +3,7 @@
 <template>
   <section class="profile">
     <img
-      src="https://media.licdn.com/dms/image/D4D03AQExZn0MhTuSdw/profile-displayphoto-shrink_800_800/0/1684527213928?e=1706140800&v=beta&t=xYhhWXY2hS5WvyttLJV8Z4rJTV0wTAFPSgTPw4mi3Zc"
+      src="https://media.licdn.com/dms/image/D4D03AQEk2Bf43_zSiw/profile-displayphoto-shrink_800_800/0/1701164167273?e=1706745600&v=beta&t=Ww60f9npTGUYcrd2-T92h3JzqF_oz76r43B8wWZRtFM"
       alt="Foto de Fransuelton, sorrindo, usando terno azul e fundo branco." />
     <h1>Fransuelton</h1>
     <h2>Desenvolvedor Front-End</h2>
