@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Fransuelton/devlinks?style=)
 ![Npm version](https://img.shields.io/static/v1?label=npm&message=v10.1.0&logo=npm&color=blue)
 ![GitHub language count](https://img.shields.io/github/languages/count/Fransuelton/devlinks?style=)
-![GitHub license](https://img.shields.io/github/license/Fransuelton/devlinks.svg)
+![GitHub license](https://img.shields.io/github/license/Fransuelton/devlinks)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Fransuelton/devlinks)
 
 <img src="./src/assets/readme/project.jpg" alt="Exemplo imagem">
