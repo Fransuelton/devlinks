@@ -6,9 +6,9 @@
 ![GitHub license](https://img.shields.io/github/license/Fransuelton/devlinks)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Fransuelton/devlinks)
 
-<img src="./src/assets/readme/project.jpg" alt="Exemplo imagem">
+<img src="./.github/project.jpg" alt="Exemplo imagem">
 
-> DevLinks é um projeto de árvore de links seguindo como base o LinkTree. Nesse Projeto é possível adicionar botões com links importantes e personalizados para acessar redes sociais, portfólio, entrar em contato etc. Utilizando o Vue.js deixei a estilização dos links bastante fácil e simples, desse modo facilitando a manutenção.
+DevLinks é um projeto de árvore de links seguindo como base o LinkTree. Nesse Projeto é possível adicionar botões com links importantes e personalizados para acessar redes sociais, portfólio, entrar em contato etc. Utilizando o Vue.js deixei a estilização dos links bastante fácil e simples, desse modo facilitando a manutenção.
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
