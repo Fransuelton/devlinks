@@ -12,6 +12,12 @@ DevLinks é um projeto de árvore de links seguindo como base o LinkTree. Nesse 
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
+- Vue.js
+- TypeScript
+- HTML
+- CSS
+- Vite
+
 ![My Skills](https://skillicons.dev/icons?i=vue,ts,html,css,vite)
 
 ### 📃 Links Complementares
