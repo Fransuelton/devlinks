@@ -7,7 +7,7 @@
       alt="Foto de Fransuelton, sorrindo, usando terno azul e fundo branco."
     />
     <h1>Fransuelton</h1>
-    <h2>Desenvolvedor de Software</h2>
+    <h2>Desenvolvedor Fullstack</h2>
   </section>
 </template>
 
