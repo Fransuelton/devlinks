@@ -5,23 +5,22 @@ import Profile from "./components/Profile.vue";
 </script>
 
 <template>
-  <Profile />
+  <Profile
+    :name="'Fransuelton'"
+    :title="'Desenvolvedor Full Stack'"
+    :image-url="'https://media.licdn.com/dms/image/v2/D4E03AQFfzRwSiZmamQ/profile-displayphoto-scale_400_400/B4EZ0G9U4DHQAg-/0/1773938246072?e=1775692800&v=beta&t=rOeE4w7JDre-2IYbe5CSwI9FZ7z8oHsjZAizK1Rng-0'"
+  />
 
   <ThemeSwitchButton />
 
   <section>
     <ul>
-      <Button :msg="'Veja meu portfólio'" :icon="'person'" :link="'https://www.fransuelton.dev/'" />
-      <Button :msg="'GitHub'" :icon="'logo-github'" :link="'https://github.com/Fransuelton'" />
-      <Button :msg="'LinkedIn'" :icon="'logo-linkedin'" link="https://www.linkedin.com/in/fransuelton/" />
-      <Button :msg="'Discord'" :icon="'logo-discord'" link="https://discord.com/users/537751809331167243" />
-      <Button :msg="'E-mail'" :icon="'mail'" link="mailto:contato@fransuelton.dev" />
-      <Button :msg="'WhatsApp'" :icon="'logo-whatsapp'" link="https://api.whatsapp.com/send?phone=558499778995" />
+      <Button />
     </ul>
   </section>
 
   <footer>
-    <p>Desenvolvido por <a href="https://github.com/Fransuelton" target="_blank" rel="noopener">Fransuelton</a></p>
+    <p>Desenvolvido com ☕ por Fransuelton.</p>
   </footer>
 </template>
 
@@ -30,7 +29,6 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
   justify-content: center;
   align-items: center;
 }
