@@ -14,7 +14,7 @@ body {
   color: var(--text-color);
 }
 
-a{
+a {
   color: var(--text-color);
 }
 
@@ -27,22 +27,22 @@ a{
 
 :root {
   --text-color: #ffffff;
-  --bg-url: url(../src/assets/bg-desktop-dark.jpg);
-  --bg-url-switch: url(../src/assets/moon-stars.svg);
+  --bg-url: url(/assets/bg-desktop-dark.jpg);
+  --bg-url-switch: url(/assets/moon-stars.svg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(0,0,0, 0.02);
-  --highlight-color: rgba(255,255,255,0.2);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(255, 255, 255, 0.2);
 }
 
 .light {
   --text-color: #000000;
-  --bg-url: url(../src/assets/bg-desktop-light.png);
-  --bg-url-switch: url(../src/assets/sun.svg);
+  --bg-url: url(/assets/bg-desktop-light.png);
+  --bg-url-switch: url(/assets/sun.svg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0,0,0, 0.02);
-  --highlight-color: rgba(0,0,0, 0.1);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
 }
 
 @keyframes slide-in {
