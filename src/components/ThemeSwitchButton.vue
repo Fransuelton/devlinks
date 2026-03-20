@@ -1,15 +1,11 @@
 <script setup lang="ts">
+import { useTheme } from "../composables/useTheme";
 
-const toggleMode = () => {
-  const html = document.documentElement;
-
-  html.classList.toggle("light");
-}
-
+const { toggleTheme } = useTheme();
 </script>
 
 <template>
-  <div id="switch" @click="toggleMode">
+  <div id="switch" @click="toggleTheme">
     <button></button>
     <span></span>
   </div>
@@ -46,7 +42,6 @@ const toggleMode = () => {
 #switch button:hover {
   outline: 0.8rem solid var(--highlight-color);
 }
-
 
 #switch span {
   display: block;

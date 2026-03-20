@@ -1,13 +1,16 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const props = defineProps<{
+  name: string;
+  title: string;
+  imageUrl: string;
+}>();
+</script>
 
 <template>
   <section class="profile">
-    <img
-      src="https://avatars.githubusercontent.com/u/107893416?v=4"
-      alt="Foto de Fransuelton, sorrindo, usando terno azul e fundo branco."
-    />
-    <h1>Fransuelton</h1>
-    <h2>Desenvolvedor Fullstack</h2>
+    <img :src="props.imageUrl" :alt="`Foto de perfil de ${props.name}`" />
+    <h1>{{ props.name }}</h1>
+    <h2>{{ props.title }}</h2>
   </section>
 </template>
 
