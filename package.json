@@ -12,6 +12,7 @@
     "vue": "^3.3.8"
   },
   "devDependencies": {
+    "@iconify/vue": "^5.0.0",
     "@vitejs/plugin-vue": "^6.0.0",
     "typescript": "^5.2.2",
     "vite": "^7.0.5",
