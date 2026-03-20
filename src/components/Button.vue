@@ -1,12 +1,19 @@
 <script setup lang="ts">
-defineProps<{ msg: string; icon: string; link: string }>();
+import { profileLinks } from "../data/links";
+import { Icon } from "@iconify/vue";
 </script>
 
 <template>
   <li>
-    <a :href="link" target="_blank" rel="noopener">
-      <ion-icon :name="icon"></ion-icon>
-      {{ msg }}
+    <a
+      v-for="link in profileLinks"
+      :key="link.label"
+      :href="link.url"
+      target="_blank"
+      rel="noopener"
+    >
+      <Icon :icon="link.icon" class="link-icon" />
+      <span>{{ link.label }}</span>
     </a>
   </li>
 </template>
@@ -29,6 +36,7 @@ li a {
   font-weight: 500;
   font-size: 1.6rem;
   width: 40rem;
+  margin: 1.6rem;
 
   transition: background 0.2s;
 }
@@ -44,7 +52,7 @@ li a:hover {
   }
 }
 
-ion-icon {
+.link-icon {
   font-size: 4rem;
   margin-right: 1rem;
   position: absolute;
