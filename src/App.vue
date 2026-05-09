@@ -8,7 +8,7 @@ import Profile from "./components/Profile.vue";
   <Profile
     :name="'Fransuelton'"
     :title="'Desenvolvedor Full Stack'"
-    :image-url="'https://media.licdn.com/dms/image/v2/D4E03AQFfzRwSiZmamQ/profile-displayphoto-scale_400_400/B4EZ0G9U4DHQAg-/0/1773938246072?e=1775692800&v=beta&t=rOeE4w7JDre-2IYbe5CSwI9FZ7z8oHsjZAizK1Rng-0'"
+    :image-url="'https://media.licdn.com/dms/image/v2/D4E03AQFfzRwSiZmamQ/profile-displayphoto-scale_200_200/B4EZ0G9U4DHQAY-/0/1773938246072?e=1779926400&v=beta&t=Xa8atKHYreZI6hVR0_lSfAODfhx6w4jfg-ujw_kvEcE'"
   />
 
   <ThemeSwitchButton />
